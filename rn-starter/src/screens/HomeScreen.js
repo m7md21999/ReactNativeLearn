@@ -14,6 +14,10 @@ const HomeScreen = ({ navigation }) => {
       <TouchableOpacity onPress={() => navigation.navigate("Components")}>
         <Text>Go To ComponentScreen Page</Text>
       </TouchableOpacity>
+      <Button
+        title="Go to Image Screen Page"
+        onPress={() => navigation.navigate("Images")}
+      ></Button>
     </View>
   );
 };
